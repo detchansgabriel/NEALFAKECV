@@ -1,0 +1,1499 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+  }
+
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: #669b59;
+    margin:auto;   
+    font-size: 1rem;    
+    
+  
+  }
+
+  header{
+    margin:20px;
+  }
+
+
+
+  
+
+  h1{
+    font-family: 'Croissant One', cursive;
+    font-size: 9rem;
+    text-align: center;
+    color:#453c2b;
+    vertical-align: middle;
+    
+    
+  }
+
+  h2 {font-family: 'Mooli', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    vertical-align: middle;
+    color:silver;
+    
+  }
+
+
+  .barra-navegadora{
+    font-family: 'Mooli', sans-serif;
+    font-size: 1rem;
+    background-color:#69af50;
+    width:80%;
+    margin:auto;
+    text-align: center;;
+    
+    padding: 10px 20px 30px 20px;
+    outline: solid 1px #453c2b;
+  }
+
+  .barra-navegadora a:hover{
+    
+    outline: 15px solid #453c2b;
+    padding:3px;
+    color:gold;
+    font-size:1.3rem;
+  }
+
+
+ 
+  .enlaces-grande{
+    display:inline-block;
+    text-align: center;
+  }
+
+  .enlaces-medio{
+    display:none;
+  }
+
+  .enlaces-chico{
+    display:none;
+  }
+
+
+  #enlaces-izq{
+   
+   float:left;
+
+  }
+  #enlaces-der{
+    float:right;
+    
+  }
+
+  
+  a{
+    text-decoration:none; 
+    color:#453c2b;
+    font-size:1.1rem;
+    margin-left:20px;
+  }
+
+    
+
+  
+  .contenedor-foto{
+    clear:both;
+    text-align:center;
+    margin:20px auto;
+    width:80%;
+
+  }
+
+  
+
+
+
+  button{
+    font-family: 'Croissant One', cursive;
+    font-size:1.5rem;
+    margin: 0px;
+    padding: 16px 16px;
+    cursor: pointer;
+    border: 3px solid #453c2b;
+    font-weight: 500;
+    border-radius: 4px;
+    
+   
+  }
+
+  #button-left{
+    background-color: #712323;
+    color:white;
+    float:left;
+    margin:50px 0px 00px 120px;
+    outline: solid white 3px;
+    
+    
+
+  }
+
+  #button-right{
+    background-color:#3434d5;
+    color:white;
+    float:right;
+    margin:50px 120px 0px 0px;
+    outline: solid white 3px;
+    
+
+  }
+
+  
+  
+  #mi-foto{
+    
+    width:200px;
+    border-radius:50%;
+    border: solid 5px  silver;
+    margin:10px;
+    outline: solid 2px #453c2b;
+    cursor: pointer;
+
+  }
+   
+
+  
+  .contenedor{
+
+    clear:both; 
+    width:80%;   
+    
+    margin: auto;
+    padding:0px;
+
+  }
+
+
+  
+  main{
+    background-color: #b78e82;
+    float:left;
+    margin:1px 4% 1px 1px;
+    width:60%;
+    height:60%;
+    padding:1px;
+    outline: solid 1px #453c2b;
+   
+  }
+
+  aside{
+    background-color:#648de6;
+    float:left;
+    margin:auto;
+    width:35.7%;
+    height:60%;
+    padding:1px 1px 1px 1px;
+    outline: solid 1px #453c2b;
+
+  } 
+  
+  h3{
+
+    font-family: 'Croissant One', cursive;
+    font-size: 1.5rem;
+    background: #ca5789;
+    color:black;
+  }
+
+  h4{
+
+    font-family: 'Mooli', sans-serif;
+    font-size: 1.5rem;
+    background:#3fc2d9;
+    
+    color:black;
+  }
+
+  p{
+    margin: 10px;
+    font-size:1.25rem;
+    text-align:justify;
+    color:white;
+    font-weight:600;
+  }
+
+  aside p{
+    font-family: 'Roboto', sans-serif;
+    margin:5px;
+  }
+
+  aside a{
+    text-decoration:none; 
+    color: white;
+    font-size:1.4rem;
+    margin:0;
+  }
+
+  section{
+    width: 75%;
+    padding:5px;
+    margin:5px auto;
+  }
+
+  .separacion{
+    clear:both;
+  }
+
+  .correo-grande{
+    display:block;    
+  }
+  
+  .correo-medio{
+    display:none;    
+  }
+
+  .correo-chico{
+    display:none;
+  }
+
+  article{
+    outline: solid 1px silver;
+  }
+
+  .contenedor-mapas{
+    
+    width:80%;
+    color:white;
+    margin:20px auto;
+    
+  }
+
+  #aus{
+    background-color:#712323 ;
+    padding:10px;
+    margin:30px 0px 30px 0px;
+  }
+
+  #aus h3{
+    background-color: #ca5789;
+
+  }
+
+  #ar{
+    background-color: #3434d5;
+    padding:10px;
+    margin:30px 0px 30px 0px;
+    
+  }
+
+  #ar h3{
+    background-color: #3fc2d9;
+  }
+
+  .mapas-tamaño{
+    width:100%;
+    height:350px;
+    margin: auto;
+    text-align:center;
+
+  }
+   
+  
+  footer{
+    
+    width:80%;
+    background-color:whitesmoke;
+    color:black;
+    padding:10px;
+    margin:auto;
+    outline: solid 1px #453c2b;
+    
+  }
+
+  footer span {
+    color:black;
+    font-size:0.8rem;
+  }
+
+  footer span a {
+    
+    text-decoration:none; 
+    color:black;
+    font-size:0.8rem;
+    margin:1px 1px 1px 3px;
+    
+  }
+
+  /* Cambios para mantener la visibilidad y la estetica de la pagina para que sean coherentes en la mayoria de los dispositivos*/
+
+  @media screen and (max-width:3850px){
+    aside {
+      padding:1px 1px 4.79% 1px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+  }
+  @media screen and (max-width:1920px){
+    aside {
+      padding:1px 1px 11.1% 1px;
+    }
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+  }
+
+  @media  screen and (max-width: 1500px) {
+
+    h1{
+      font-size: 7rem;
+    }
+  
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    .barra-navegadora{
+      padding:10px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+    .correo-grande{
+      display:none;    
+    }
+
+    .correo-medio{
+      display:block;    
+    }
+
+    .correo-chico{
+      display:none;
+    }
+    
+  
+    button{
+      font-size:1.3rem;  
+      font-weight: 500;
+      padding: 16px 16px;
+    }
+    
+    #button-left{
+      margin:50px 0px 0px 60px;
+
+    }
+
+    #button-right{
+      margin:50px 60px 0px 0px;
+    }
+
+    #mi-foto{
+      width:180px;
+    }
+
+    aside {
+      padding:1px 1px 11.7% 1px;
+    }
+
+    
+    aside a{
+      font-size:1.3rem;            
+    }
+  }
+  @media screen and (max-width:1430px){
+    aside {
+      padding:1px 1px 10.3% 1px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+  }
+
+  @media  screen and (max-width: 1300px) {
+
+    h1{
+      font-size: 6rem;
+    }
+  
+    h2 {
+      font-size: 2.25rem;
+    }
+
+    .barra-navegadora{
+      padding:10px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+    .enlaces-grande{
+      display:inline-block;
+      text-align: center;
+    }
+
+    .enlaces-medio{
+      display:none;
+    }
+
+    .enlaces-chico{
+      display:none;
+    }
+    
+
+    button{
+      font-size:1.2rem;  
+      font-weight: 500;
+      padding: 15px 15px;
+    }
+    
+    #button-left{
+      margin:50px 0px 0px 30px;
+
+    }
+
+    #button-right{
+    margin:50px 30px 0px 0px;
+    }
+
+    #mi-foto{
+    width:160px;
+    }
+
+    
+
+
+    .correo-grande{
+      display:none;    
+    }
+
+    .correo-medio{
+      display:block;    
+    }
+
+    .correo-chico{
+      display:none;
+    }
+
+    aside {
+      padding:1px 1px 16.1% 1px;
+    }
+
+    aside a{
+      font-size:1.1rem;      
+    }
+  }
+
+
+@media screen and (max-width:1200px){
+  aside {
+    padding:1px 1px 10% 1px;
+  }
+
+  .barra-navegadora a:hover{
+    
+    outline: 15px solid #453c2b;
+    padding:3px;
+    color:gold;
+    font-size:1.3rem;
+  }
+}
+
+  @media  screen and (max-width: 1100px) {
+
+    h1{
+      font-size: 5rem;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+
+    .barra-navegadora{
+      padding:10px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+    .enlaces-grande{
+      display:inline-block;
+      text-align: center;
+    }
+
+    .enlaces-medio{
+      display:none;
+    }
+
+    .enlaces-chico{
+      display:none;
+    }
+
+
+    button{
+      font-size:1.1rem;  
+      font-weight: 500;
+      padding: 14px 14px;
+    }
+    
+    #button-left{
+      margin:50px 0px 0px 10px;
+
+    }
+
+    #button-right{
+      margin:50px 10px 0px 0px;
+    }
+
+    #mi-foto{
+      width:140px;
+    }
+
+        
+    .correo-grande{
+      display:none;    
+    }
+
+    .correo-medio{
+      display:block;    
+    }
+
+    .correo-chico{
+      display:none;
+    }
+
+    aside {
+      padding:1px 1px 10.8% 1px;
+    }
+
+    aside a{
+      font-size:1rem;
+      
+    }
+  
+  }
+
+  @media  screen and (max-width: 1000px) {
+
+    h1{
+      font-size: 4rem;
+    }
+  
+    h2 {
+      font-size: 1.9rem;
+    }
+
+    .barra-navegadora{
+      padding:10px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+    .enlaces-grande{
+      display:inline-block;
+      text-align: center;
+    }
+
+    .enlaces-medio{
+      display:none;
+    }
+
+    .enlaces-chico{
+      display:none;
+    }
+
+    aside a{
+      
+      font-size:1rem;
+    }
+
+    button{
+      font-size:1rem;  
+      font-weight: 500;
+      padding: 13px 13px;
+    }
+    
+    #button-left{
+      margin:40px 0px 0px 10px;
+
+    }
+
+    #button-right{
+      margin:40px 10px 0px 0px;
+    }
+
+    #mi-foto{
+      width:120px;
+    }
+
+    main{
+      float:none;
+      margin:auto;
+      width:100%;
+      padding:1px;
+    }
+  
+    aside{
+      float:none;
+      margin:30px auto;
+      width:100%;
+      padding:1px;
+    } 
+
+    .correo-grande{
+      display:block; 
+    }
+    
+    .correo-medio{
+      display:none;    
+    }
+
+    .correo-chico{
+      display:none;
+    }
+
+    aside a{
+      font-size:1.6rem;
+      
+    }
+
+    
+    h3{
+      font-size: 1.4rem;
+    }
+
+    h4{
+      font-size: 1.4rem;
+    }
+  }
+
+  @media  screen and (max-width: 900px) {
+    h1{
+      font-size: 3rem;
+    }
+  
+    h2 {
+      font-size: 1.7rem;
+    }
+    .barra-navegadora{
+      padding:10px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+    .enlaces-grande{
+      display:inline-block;
+      text-align: center;
+    }
+
+    .enlaces-medio{
+      display:none;
+    }
+
+    .enlaces-chico{
+      display:none;
+    }
+    
+    a{
+      margin-left:10px;
+      font-size:1rem;
+    }
+
+    button{
+      font-size:1rem;  
+      font-weight: 500;
+      padding: 12px 12px;
+    }
+    
+    #button-left{
+      margin:40px 0px 0px 10px;
+
+    }
+
+    #button-right{
+      margin:40px 10px 0px 0px;
+    }
+
+    #mi-foto{
+      width:120px;
+    }
+
+    main{
+      float:none;
+      margin:auto;
+      width:100%;
+      padding:1px;
+    }
+  
+    aside{
+      float:none;
+      margin:30px auto;
+      width:100%;
+      padding:1px;
+    } 
+
+    
+    h3{
+      font-size: 1.3rem;
+    }
+
+    h4{
+      font-size: 1.3rem;
+    }
+
+    .correo-grande{
+      display:block;  
+      
+    }
+    
+    .correo-medio{
+      display:none;      
+    }
+
+    .correo-chico{
+      display:none;
+    }
+
+
+    p{
+      margin: 5px;
+      font-size:1rem;
+     
+    }
+    aside a{
+      font-size:1.6rem;
+      
+    }
+
+    
+  }
+
+  @media  screen and (max-width: 800px) {
+
+    h1{
+      font-size: 3rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    .barra-navegadora{
+      padding:10px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+    .enlaces-grande{
+      display:none;
+    }
+
+    .enlaces-medio{
+      
+      display:inline-block;
+      text-align: center;
+    }
+
+    .enlaces-chico{
+      display:none;
+    }
+    a{
+      margin: 10px 10px 10px 10px;
+      font-size:1.1rem;
+    }
+
+    button{
+      font-size:0.8rem;  
+      font-weight: 500;
+      padding: 11px 11px;
+    }
+    
+    #button-left{
+      margin:40px 0px 0px 10px;
+
+    }
+
+    #button-right{
+      margin:40px 10px 0px 0px;
+    }
+
+    #mi-foto{
+      width:100px;
+    }
+
+    main{
+      float:none;
+      margin:auto;
+      width:100%;
+      padding:1px;
+    }
+  
+    aside{
+      float:none;
+      margin:30px auto;
+      width:100%;
+      padding:1px;
+    } 
+
+    
+    h3{
+      font-size: 1.3rem;
+    }
+
+    h4{
+      font-size: 1.3rem;
+    }
+
+    p{
+      margin: 5px;
+      font-size:1rem;
+     
+    }
+
+    .correo-grande{
+      display:block;  
+      
+    }
+    
+    .correo-medio{
+      display:none;      
+    }
+
+    .correo-chico{
+      display:none;
+    }
+
+    aside a{
+      font-size:1.4rem;
+      
+    }
+  }
+
+  @media  screen and (max-width: 700px) {
+    h1{
+      font-size: 3rem;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+    }
+
+    .barra-navegadora{
+      padding:10px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+    .enlaces-grande{
+      display:none;
+    }
+
+    .enlaces-medio{
+      
+      display:inline-block;
+      text-align: center;
+    }
+
+    .enlaces-chico{
+      display:none;
+    }
+    a{
+      margin: 10px 10px 10px 10px;
+      font-size:1.1rem;
+    }
+    
+    button{
+      font-size:0.7rem;  
+      font-weight: 400;
+      padding: 10px 10px;
+    }
+
+    #button-left{
+      margin:40px 0px 0px 10px;
+
+    }
+
+    #button-right{
+      margin:40px 10px 0px 0px;
+     
+    }
+    
+    
+
+    #mi-foto{
+      width:90px;
+    }
+
+    main{
+      float:none;
+      margin:auto;
+      width:100%;
+      padding:1px;
+    }
+  
+    aside{
+      float:none;
+      margin:30px auto;
+      width:100%;
+      padding:1px;
+    } 
+
+    
+    h3{
+      font-size: 1.1rem;
+    }
+
+    h4{
+      font-size: 1.1rem;
+    }
+
+    p{
+      margin: 5px;
+      font-size:1rem;
+     
+    }
+
+    .correo-grande{
+      display:block;  
+      
+    }
+    
+    .correo-medio{
+      display:none;      
+    }
+
+    .correo-chico{
+      display:none;
+    }
+
+    aside a{
+      font-size:1.1rem;
+      
+    }
+  }
+
+  @media  screen and (max-width: 600px) {
+    h1{
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+
+    .barra-navegadora{
+      padding:10px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+    .enlaces-grande{
+      display:none;
+    }
+
+    .enlaces-medio{
+      
+      display:inline-block;
+      text-align: center;
+    }
+
+    .enlaces-chico{
+      display:none;
+    }
+    a{
+      margin: 10px 10px 10px 10px;
+      font-size:1rem;
+    }
+
+    button{
+      font-size:0.6rem;  
+      font-weight: 400;
+      padding: 5px 5px;
+      
+      
+    }
+    
+    #button-left{
+      margin:40px 0px 0px 10px;
+
+    }
+
+    #button-right{
+      margin:40px 10px 0px 0px;
+     
+    }
+
+    #mi-foto{
+      width:90px;
+      
+    }
+
+    main{
+      float:none;
+      margin:auto;
+      width:100%;
+      padding:1px;
+    }
+  
+    aside{
+      float:none;
+      margin:30px auto;
+      width:100%;
+      padding:1px;
+    } 
+
+    
+    h3{
+      font-size: 1rem;
+    }
+
+    h4{
+      font-size: 1rem;
+    }
+
+    p{
+      margin: 5px;
+      font-size:0.9rem;
+    }
+
+    .correo-grande{
+      display:block;  
+      
+    }
+    
+    .correo-medio{
+      display:none;      
+    }
+
+    .correo-chico{
+      display:none;
+    }
+
+    aside a{
+      font-size:0.9rem;
+      
+    }
+  }
+
+
+
+
+
+
+  @media  screen and (max-width: 500px) {
+    h1{
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+
+    .barra-navegadora{
+      padding:5px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+    .enlaces-grande{
+      display:none;
+    }
+
+    .enlaces-medio{
+      
+      display:inline-block;
+      text-align: center;
+    }
+
+    .enlaces-chico{
+      display:none;
+    }
+    a{
+      margin: 5px 5px 5px 5px;
+      font-size: 0.8rem;
+    }
+
+    .contenedor-foto{
+      margin: 30px 0px 30px 38%;
+    }
+
+    button{
+      font-size:0.5rem;  
+      font-weight: 400;
+      padding: 5px 5px;
+     
+    }
+    
+    #button-left{
+      margin:0px;
+      float:none;
+      display:block;
+      
+
+    }
+
+    #button-right{
+      margin:0px;
+      float:none;
+      display:block;
+      
+    }
+
+    #mi-foto{
+      width:90px;
+      float:none;
+      display:block;
+      
+    }
+
+    main{
+      float:none;
+      margin:auto;
+      width:100%;
+      padding:1px;
+    }
+  
+    aside{
+      float:none;
+      margin:30px auto;
+      width:100%;
+      padding:1px;
+    } 
+
+    
+     h3{
+      font-size: 0.9rem;
+    }
+
+    h4{
+      font-size: 0.9rem;
+    }
+
+    p{
+      margin: 5px;
+      font-size:0.8rem;
+    }
+
+    .correo-grande{
+      display:none;
+      
+    }
+    
+    .correo-medio{
+      display: block;      
+    }
+
+    .correo-chico{
+      display:none;
+    }
+
+    aside a{
+      font-size:0.9rem;
+      
+    }
+
+    
+  }
+
+  @media  screen and (max-width: 400px) {
+    h1{
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 0.8rem;
+    }
+
+    .barra-navegadora{
+      padding:5px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+    .enlaces-grande{
+      display:none;
+    }
+
+    .enlaces-medio{
+      display:none;
+    }
+
+    .enlaces-chico{
+      display:inline-block;
+      text-align: center;
+      
+    }
+    a{
+      margin: 5px 5px 5px 5px;
+      font-size:0.8rem;
+    }
+
+    .contenedor-foto{
+      margin: 30px 0px 30px 38%;
+    }
+
+
+    
+    button{
+      font-size:0.6rem;  
+      font-weight: 400;
+      padding: 5px 5px;
+    }
+
+    
+    #button-left{
+      margin:0px;
+      float:none;
+      display:block;
+      
+
+    }
+
+    #button-right{
+      margin:0px;
+      float:none;
+      display:block;
+      
+    }
+    
+
+    #mi-foto{
+      width:80px;
+      display:block;
+      float:none;
+    }
+
+    main{
+      float:none;
+      margin:auto;
+      width:100%;
+      padding:1px;
+    }
+  
+    aside{
+      float:none;
+      margin:30px auto;
+      width:100%;
+      padding:1px;
+    } 
+
+    p{
+      margin: 5px;
+      font-size:0.7rem;
+    }
+
+    aside a{
+      font-size:0.5rem;
+      
+    }
+
+    .correo-grande{
+      display:none;
+      
+    }
+    
+    .correo-medio{
+      display: block;      
+    }
+
+    .correo-chico{
+      display:none;
+    }
+
+    aside a{
+      font-size:0.9rem;
+      
+    }
+
+  }
+
+  
+
+  @media  screen and (max-width: 350px) {
+    h1{
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 0.8rem;
+    }
+
+    .barra-navegadora{
+      padding:5px;
+    }
+
+    .barra-navegadora a:hover{
+    
+      outline: 15px solid #453c2b;
+      padding:3px;
+      color:gold;
+      font-size:1.3rem;
+    }
+
+    .enlaces-grande{
+      display:none;
+    }
+
+    .enlaces-medio{
+      display:none;
+    }
+
+    .enlaces-chico{
+      display:inline-block;
+      text-align: center;
+      
+    }
+    a{
+      margin: 5px 5px 5px 5px;
+      font-size:0.75rem;
+    }
+
+
+
+    .contenedor-foto{
+      margin: 30px 0px 30px 28%;
+    }
+
+
+    
+    button{
+      font-size:0.6rem;  
+      font-weight: 400;
+      padding: 5px 5px;
+    }
+
+    
+    #button-left{
+      margin:0px;
+      float:none;
+      display:block;
+      
+
+    }
+
+    #button-right{
+      margin:0px;
+      float:none;
+      display:block;
+      
+    }
+
+    #mi-foto{
+      width:80px;
+      display:block;
+      float:none;
+    }
+
+    main{
+      float:none;
+      margin:auto;
+      width:100%;
+      padding:1px;
+    }
+  
+    aside{
+      float:none;
+      margin:30px auto;
+      width:100%;
+      padding:1px;
+    } 
+
+    p{
+      margin: 5px;
+      font-size:0.7rem;
+    }
+
+    
+    .correo-grande{
+      display:none;    
+    }
+    .correo-medio{
+      display:none;    
+    }
+    .correo-chico{
+      display:block;
+    }
+
+    aside a{
+      font-size:0.7rem;
+      
+    }
+
+   
+  }
+
+
+
+
+
+
+  
